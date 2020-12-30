@@ -9,6 +9,18 @@
     <version>1.0-SNAPSHOT</version>
 <build>
     <finalName>jenkins-springboot</finalName>
+   <plugins>
+    <plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>exec-maven-plugin</artifactId>
+  <version>1.4.0</version>
+  <configuration>
+    <mainClass>com.org.test.Test</mainClass>
+  </configuration>
+</plugin>
+</plugins>
+    
+    
 </build>
 
 </project>
